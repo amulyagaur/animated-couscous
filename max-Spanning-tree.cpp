@@ -33,7 +33,7 @@ int main()
     {
       int n,m;
       cin>>n>>m;
-      vector< vector< pair<int,int> > > v(5001);
+      vector< vector< pair<int,int > > > v(5001);
       vector<bool> visited(5001,false);
       while(m--)
       {
