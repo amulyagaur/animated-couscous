@@ -35,7 +35,7 @@ int main()
     		{
     			distance[v[Node][i].first]=distance[Node]+v[Node][i].second;
     		if(v[Node][i].second==0)
-    			dq.push_front(v[Node][i].first);
+    			dq.push_front(v[Node][i].first) ;
     		else
     			dq.push_back(v[Node][i].first);
     		}	
